@@ -31,6 +31,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PULL_REQUEST_BRANCH: "master"
-        PULL_REQUEST_REVIEWERS: "jlabeit"
         PULL_REQUEST_TITLE:  "Release PR"
         PULL_REQUEST_FROM_BRANCH: "release-candidate"
