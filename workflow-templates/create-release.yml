@@ -8,6 +8,8 @@ jobs:
     timeout-minutes: 10
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
     - uses: peterjgrainger/action-create-branch@v2.0.1
       name: create release-candidate branch from default branch
       env:
